@@ -73,8 +73,8 @@ def main():
     # Main function to extract the 100 movies from IMDB Most Popular Movies
     extract_movies(soup)
 
-    end_time = time.time()
-    print('Total time taken: ', end_time - start_time)
+    # end_time = time.time()
+    # print('Total time taken: ', end_time - start_time)
 
 if __name__ == '__main__':
     main()
